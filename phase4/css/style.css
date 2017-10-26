@@ -1,0 +1,45 @@
+
+body{
+	
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap:wrap;
+}
+.column-1 {
+	height: 50vh;
+	width: 100vw;
+}
+.column-2 {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+.box {
+	height: 33%;
+	width: 33%;
+}
+.green0 {background-color:blue;}
+.green1 {background-color:#00FF00;}
+.green2 {background-color:yellow;}
+.green3 {background-color:black;}
+.green4 {background-color:orange;}
+.green5 {background-color:pink;}
+.green6 {background-color:purple;}
+.green7 {background-color:gray;}
+.green8 {background-color:blue;}
+
+
+@media screen and (max-width: 800px){
+
+.column-2 {
+	height: 80vh;
+	width: 100vw;
+	display: block;
+}
+.box {
+	height: 80%;
+	width: 100%;
+}
+}
