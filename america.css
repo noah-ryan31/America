@@ -2,7 +2,7 @@ body {
 	
 	height: 100vh;
 	display: flex;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	background-color: black;
@@ -13,43 +13,99 @@ body {
 	background-size: 100% 100%; 
 	background-repeat: no-repeat;
 }
-.green1 {background-image: url("img/founder1.jpg");
-background-size: 100% 100%; 
-background-repeat: no-repeat;
+.stars {
+	background-image:url("img/stars.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
 }
-.green2  {background-image: url("img/founder2.jpg");
-background-size: 100% 100%; 
-background-repeat: no-repeat;
+.green1 {
+	background-image: url("img/founder1.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
 }
-.green3 {background-image: url("img/founder3.jpg");
-background-size: 100% 100%; 
-background-repeat: no-repeat;
+.flag1 {
+	background-image:url("img/flag1.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
 }
-.green4 {background-image: url("img/pres2.jpg");
-background-size: 100% 100%; 
-background-repeat: no-repeat;
+.green2  {
+	background-image: url("img/founder2.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
 }
-.green5 {background-image: url("img/founder4.jpg");
-background-size: 100% 100%; 
-background-repeat: no-repeat;
+.flag2 {
+	background-image:url("img/flag2.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
 }
-.green6 {background-image: url("img/founder5.jpg");
-background-size: 100% 100%; 
-background-repeat: no-repeat;
+.green3 {
+	background-image: url("img/founder3.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
 }
-.green7 {background-image: url("img/founder6.jpg");
-background-size: 100% 100%; 
-background-repeat: no-repeat;
+.flag3 {
+	background-image:url("img/flag3.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
 }
-.green8 {background-image: url("img/founder7.jpg");
-background-size: 100% 100%; 
-background-repeat: no-repeat;
+.green4 {
+	background-image: url("img/pres2.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+.flag4 {
+	background-image:url("img/flag4.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+.green5 {
+	background-image: url("img/founder4.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+.flag5 {
+	background-image:url("img/flag5.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+
+.green6 {
+	background-image: url("img/founder5.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+.flag6 {
+	background-image:url("img/flag6.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+.green7 {
+	background-image: url("img/founder6.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+.flag7 {
+	background-image:url("img/flag7.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+.green8 {
+	background-image: url("img/founder7.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+
+.flag8 {
+	background-image:url("img/flag8.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
 }
 .column-1 {
 	height: 100vh;
 	width: 100vw;
 }
-@media screen and (min-width: 1000px){
+
+@media screen and (min-width: 100px){
 .column-2 {
 	height: 100vh;
 	width: 100vw;
@@ -57,28 +113,139 @@ background-repeat: no-repeat;
 	flex-wrap: wrap;
 	width: 1075px;
 }
+
 .center-horizontal {
 	display: flex;
 	align-items: center;
 }
+
 .center-vertical {
 	display: flex;
 	justify-content: center;
 	height: inherit;
 }
+
 .box {
 	height: 33%;
 	width: 33%;
 }
-}
-@media screen and (max-width: 999px){
+
+@media screen and (max-width: 1000px){
 
 .column-2 {
 	height: 100vh;
 	width: 100vw;
 	display: block;
 }
+
 .box {
 	height: 80%;
 	width: 100%;
 }
+.flag4 {
+	background-image: url("img/america.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+.green0{
+		background-image: url("img/pres1.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}
+
+	.green1 {
+	background-image: url("img/founder1.jpg");
+	background-size: 100% 100%; 
+	background-repeat: no-repeat;
+}
+	.flag1 { background-image: url("img/liberty.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}	
+		
+		
+	.green2 {
+		background-image: url("img/founder2.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}
+	
+		.flag2 { 
+		background-image: url("img/protest.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}	
+		
+		.green3 {
+		background-image: url("img/founder3.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}
+		
+		
+		.flag3 { 
+		background-image: url("img/army.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		}
+		
+		.green4 {
+		background-image: url("img/pres2.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}
+		
+		.stars { 
+		background-image: url("img/army3.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}
+		.green5 {
+		background-image: url("img/founder4.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}
+		.flag5 { 
+		background-image: url("img/army2.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+		}
+		
+		.green6 {
+		background-image: url("img/founder5.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}
+		.flag6 { 
+		background-image: url("img/mount.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}
+
+		.green7 {
+		background-image: url("img/founder6.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}
+		.flag7 { 
+		background-image: url("img/lincoln.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}
+		
+		
+		.green8 {
+		background-image: url("img/founder7.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}
+		.flag8 { 
+		background-image: url("img/house.jpg");
+		background-size: 100% 100%; 
+		background-repeat: no-repeat;
+}
+	 
+	
+	
+	
+		
